@@ -1,0 +1,777 @@
+2025-01-16 14:08:26.096 +13:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-01-16 14:08:26.265 +13:00 [DBG] Hosting starting
+2025-01-16 14:08:26.484 +13:00 [INF] Now listening on: https://localhost:7171
+2025-01-16 14:08:26.487 +13:00 [INF] Now listening on: http://localhost:5206
+2025-01-16 14:08:26.489 +13:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-01-16 14:08:26.492 +13:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-01-16 14:08:26.493 +13:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-01-16 14:08:26.495 +13:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-16 14:08:26.498 +13:00 [INF] Hosting environment: Development
+2025-01-16 14:08:26.501 +13:00 [INF] Content root path: C:\Users\64273\C#\CityInfo\CityInfo.API
+2025-01-16 14:08:26.503 +13:00 [DBG] Hosting started
+2025-01-16 14:08:26.511 +13:00 [DBG] Connection id "0HN9LP940UHNF" accepted.
+2025-01-16 14:08:26.515 +13:00 [DBG] Connection id "0HN9LP940UHNG" accepted.
+2025-01-16 14:08:26.516 +13:00 [DBG] Connection id "0HN9LP940UHNF" started.
+2025-01-16 14:08:26.517 +13:00 [DBG] Connection id "0HN9LP940UHNG" received FIN.
+2025-01-16 14:08:26.517 +13:00 [DBG] Connection id "0HN9LP940UHNF" received FIN.
+2025-01-16 14:08:26.519 +13:00 [DBG] Connection id "0HN9LP940UHNG" started.
+2025-01-16 14:08:26.540 +13:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-16 14:08:26.540 +13:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-16 14:08:26.570 +13:00 [DBG] Connection id "0HN9LP940UHNF" stopped.
+2025-01-16 14:08:26.570 +13:00 [DBG] Connection id "0HN9LP940UHNG" stopped.
+2025-01-16 14:08:26.578 +13:00 [DBG] Connection id "0HN9LP940UHNF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:08:26.578 +13:00 [DBG] Connection id "0HN9LP940UHNG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:08:27.475 +13:00 [DBG] Connection id "0HN9LP940UHNH" accepted.
+2025-01-16 14:08:27.520 +13:00 [DBG] Connection id "0HN9LP940UHNH" started.
+2025-01-16 14:08:28.318 +13:00 [DBG] Connection 0HN9LP940UHNH established using the following protocol: "Tls13"
+2025-01-16 14:08:28.704 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/index.html - null null
+2025-01-16 14:08:29.128 +13:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-01-16 14:08:29.321 +13:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-01-16 14:08:29.328 +13:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-16 14:08:29.365 +13:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-01-16 14:08:29.368 +13:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-16 14:08:29.373 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/index.html - 200 null text/html;charset=utf-8 676.1685ms
+2025-01-16 14:08:29.581 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-16 14:08:29.606 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 24.9975ms
+2025-01-16 14:08:29.694 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2025-01-16 14:08:29.885 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 191.0332ms
+2025-01-16 14:08:30.134 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - null null
+2025-01-16 14:08:30.482 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 348.102ms
+2025-01-16 14:08:34.209 +13:00 [DBG] Connection id "0HN9LP940UHNH" received FIN.
+2025-01-16 14:08:34.217 +13:00 [DBG] The connection queue processing loop for 0HN9LP940UHNH completed.
+2025-01-16 14:08:34.219 +13:00 [DBG] Connection id "0HN9LP940UHNH" is closed. The last processed stream ID was 7.
+2025-01-16 14:08:34.222 +13:00 [DBG] Connection id "0HN9LP940UHNH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:08:34.234 +13:00 [DBG] Connection id "0HN9LP940UHNH" stopped.
+2025-01-16 14:09:01.589 +13:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-01-16 14:09:01.691 +13:00 [DBG] Hosting starting
+2025-01-16 14:09:01.800 +13:00 [INF] Now listening on: https://localhost:7171
+2025-01-16 14:09:01.803 +13:00 [INF] Now listening on: http://localhost:5206
+2025-01-16 14:09:01.804 +13:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-01-16 14:09:01.805 +13:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-01-16 14:09:01.806 +13:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-01-16 14:09:01.807 +13:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-16 14:09:01.808 +13:00 [INF] Hosting environment: Development
+2025-01-16 14:09:01.809 +13:00 [INF] Content root path: C:\Users\64273\C#\CityInfo\CityInfo.API
+2025-01-16 14:09:01.810 +13:00 [DBG] Hosting started
+2025-01-16 14:09:02.242 +13:00 [DBG] Connection id "0HN9LP9ELMRLK" received FIN.
+2025-01-16 14:09:02.242 +13:00 [DBG] Connection id "0HN9LP9ELMRLL" received FIN.
+2025-01-16 14:09:02.249 +13:00 [DBG] Connection id "0HN9LP9ELMRLK" accepted.
+2025-01-16 14:09:02.249 +13:00 [DBG] Connection id "0HN9LP9ELMRLL" accepted.
+2025-01-16 14:09:02.251 +13:00 [DBG] Connection id "0HN9LP9ELMRLK" started.
+2025-01-16 14:09:02.253 +13:00 [DBG] Connection id "0HN9LP9ELMRLL" started.
+2025-01-16 14:09:02.266 +13:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-16 14:09:02.266 +13:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-16 14:09:02.290 +13:00 [DBG] Connection id "0HN9LP9ELMRLM" accepted.
+2025-01-16 14:09:02.292 +13:00 [DBG] Connection id "0HN9LP9ELMRLM" started.
+2025-01-16 14:09:02.293 +13:00 [DBG] Connection id "0HN9LP9ELMRLK" stopped.
+2025-01-16 14:09:02.293 +13:00 [DBG] Connection id "0HN9LP9ELMRLL" stopped.
+2025-01-16 14:09:02.302 +13:00 [DBG] Connection id "0HN9LP9ELMRLL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:09:02.302 +13:00 [DBG] Connection id "0HN9LP9ELMRLK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:09:02.340 +13:00 [DBG] Connection 0HN9LP9ELMRLM established using the following protocol: "Tls13"
+2025-01-16 14:09:02.381 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/index.html - null null
+2025-01-16 14:09:02.460 +13:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-01-16 14:09:02.542 +13:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-01-16 14:09:02.546 +13:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-16 14:09:02.575 +13:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-01-16 14:09:02.577 +13:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-16 14:09:02.590 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/index.html - 200 null text/html;charset=utf-8 209.0777ms
+2025-01-16 14:09:02.595 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-16 14:09:02.595 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2025-01-16 14:09:02.611 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 16.6048ms
+2025-01-16 14:09:02.653 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.5231ms
+2025-01-16 14:09:02.706 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - null null
+2025-01-16 14:09:02.857 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 151.2044ms
+2025-01-16 14:09:04.243 +13:00 [DBG] Connection id "0HN9LP9ELMRLM" received FIN.
+2025-01-16 14:09:04.259 +13:00 [DBG] The connection queue processing loop for 0HN9LP9ELMRLM completed.
+2025-01-16 14:09:04.266 +13:00 [DBG] Connection id "0HN9LP9ELMRLM" is closed. The last processed stream ID was 7.
+2025-01-16 14:09:04.274 +13:00 [DBG] Connection id "0HN9LP9ELMRLM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:09:04.287 +13:00 [DBG] Connection id "0HN9LP9ELMRLM" stopped.
+2025-01-16 14:10:24.910 +13:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-01-16 14:10:25.233 +13:00 [DBG] Hosting starting
+2025-01-16 14:10:25.483 +13:00 [INF] Now listening on: https://localhost:7171
+2025-01-16 14:10:25.487 +13:00 [INF] Now listening on: http://localhost:5206
+2025-01-16 14:10:25.490 +13:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-01-16 14:10:25.493 +13:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-01-16 14:10:25.495 +13:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-01-16 14:10:25.499 +13:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-16 14:10:25.502 +13:00 [INF] Hosting environment: Development
+2025-01-16 14:10:25.506 +13:00 [INF] Content root path: C:\Users\64273\C#\CityInfo\CityInfo.API
+2025-01-16 14:10:25.509 +13:00 [DBG] Hosting started
+2025-01-16 14:10:25.966 +13:00 [DBG] Connection id "0HN9LPA7K4HPA" received FIN.
+2025-01-16 14:10:25.986 +13:00 [DBG] Connection id "0HN9LPA7K4HPA" accepted.
+2025-01-16 14:10:25.999 +13:00 [DBG] Connection id "0HN9LPA7K4HPA" started.
+2025-01-16 14:10:26.058 +13:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-16 14:10:26.178 +13:00 [DBG] Connection id "0HN9LPA7K4HPA" stopped.
+2025-01-16 14:10:26.196 +13:00 [DBG] Connection id "0HN9LPA7K4HPA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:10:26.319 +13:00 [DBG] Connection id "0HN9LPA7K4HPB" accepted.
+2025-01-16 14:10:26.330 +13:00 [DBG] Connection id "0HN9LPA7K4HPB" started.
+2025-01-16 14:10:26.900 +13:00 [DBG] Connection 0HN9LPA7K4HPB established using the following protocol: "Tls13"
+2025-01-16 14:10:27.160 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/index.html - null null
+2025-01-16 14:10:27.430 +13:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-01-16 14:10:27.777 +13:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-01-16 14:10:27.785 +13:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-16 14:10:27.837 +13:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-01-16 14:10:27.844 +13:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-16 14:10:27.869 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2025-01-16 14:10:27.869 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-16 14:10:27.872 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/index.html - 200 null text/html;charset=utf-8 717.4335ms
+2025-01-16 14:10:27.947 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 78.4298ms
+2025-01-16 14:10:28.019 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 150.2952ms
+2025-01-16 14:10:28.285 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - null null
+2025-01-16 14:10:28.935 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 649.9177ms
+2025-01-16 14:10:32.687 +13:00 [DBG] Connection id "0HN9LPA7K4HPB" received FIN.
+2025-01-16 14:10:33.355 +13:00 [DBG] The connection queue processing loop for 0HN9LPA7K4HPB completed.
+2025-01-16 14:10:33.370 +13:00 [DBG] Connection id "0HN9LPA7K4HPB" is closed. The last processed stream ID was 7.
+2025-01-16 14:10:33.737 +13:00 [DBG] Connection id "0HN9LPA7K4HPB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:10:33.941 +13:00 [DBG] Connection id "0HN9LPA7K4HPB" stopped.
+2025-01-16 14:11:31.620 +13:00 [DBG] Connection id "0HN9LPA7K4HPC" accepted.
+2025-01-16 14:11:31.625 +13:00 [DBG] Connection id "0HN9LPA7K4HPC" received FIN.
+2025-01-16 14:11:31.625 +13:00 [DBG] Connection id "0HN9LPA7K4HPC" started.
+2025-01-16 14:11:31.627 +13:00 [DBG] Connection id "0HN9LPA7K4HPD" accepted.
+2025-01-16 14:11:31.632 +13:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-16 14:11:31.634 +13:00 [DBG] Connection id "0HN9LPA7K4HPD" started.
+2025-01-16 14:11:31.642 +13:00 [DBG] Connection id "0HN9LPA7K4HPC" stopped.
+2025-01-16 14:11:31.647 +13:00 [DBG] Connection id "0HN9LPA7K4HPC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:11:31.659 +13:00 [DBG] Connection 0HN9LPA7K4HPD established using the following protocol: "Tls13"
+2025-01-16 14:11:31.676 +13:00 [INF] Request starting HTTP/1.1 GET https://localhost:7171/api/cities/1/pointsofinterest - null null
+2025-01-16 14:11:31.700 +13:00 [DBG] The request path  does not match the path filter
+2025-01-16 14:11:31.773 +13:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest'
+2025-01-16 14:11:31.784 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest' is valid for the request path '/api/cities/1/pointsofinterest'
+2025-01-16 14:11:31.790 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2025-01-16 14:11:31.804 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2025-01-16 14:11:31.858 +13:00 [INF] Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.PointOfInterestDto]] GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2025-01-16 14:11:31.868 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:11:31.874 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:11:31.881 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:11:31.887 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:11:31.891 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:11:31.902 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:11:31.909 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:11:31.930 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:11:31.940 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2025-01-16 14:11:31.948 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:11:31.953 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:11:31.957 +13:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:11:31.965 +13:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:11:31.980 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:11:31.991 +13:00 [DBG] No information found on request to perform content negotiation.
+2025-01-16 14:11:31.993 +13:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-16 14:11:31.997 +13:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-16 14:11:32.001 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-16 14:11:32.006 +13:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.PointOfInterestDto, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-16 14:11:32.224 +13:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 321.7784ms
+2025-01-16 14:11:32.232 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2025-01-16 14:11:32.236 +13:00 [DBG] Connection id "0HN9LPA7K4HPD" completed keep alive response.
+2025-01-16 14:11:32.239 +13:00 [INF] Request finished HTTP/1.1 GET https://localhost:7171/api/cities/1/pointsofinterest - 200 206 application/json; charset=utf-8 562.745ms
+2025-01-16 14:11:48.957 +13:00 [INF] Request starting HTTP/1.1 GET https://localhost:7171/api/cities/4/pointsofinterest - null null
+2025-01-16 14:11:48.963 +13:00 [DBG] The request path  does not match the path filter
+2025-01-16 14:11:48.965 +13:00 [DBG] 1 candidate(s) found for the request path '/api/cities/4/pointsofinterest'
+2025-01-16 14:11:48.967 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest' is valid for the request path '/api/cities/4/pointsofinterest'
+2025-01-16 14:11:48.970 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2025-01-16 14:11:48.973 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2025-01-16 14:11:48.974 +13:00 [INF] Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.PointOfInterestDto]] GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2025-01-16 14:11:48.976 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:11:48.978 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:11:48.979 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:11:48.983 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:11:48.988 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:11:48.989 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:11:48.991 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:11:48.993 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:11:48.994 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2025-01-16 14:11:48.996 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:11:48.998 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:11:49.000 +13:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:11:49.003 +13:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:11:49.004 +13:00 [INF] City with id 4 wasn't found when accessing points of interest.
+2025-01-16 14:11:49.006 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:11:49.009 +13:00 [DBG] No information found on request to perform content negotiation.
+2025-01-16 14:11:49.010 +13:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-01-16 14:11:49.013 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-01-16 14:11:49.017 +13:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-16 14:11:49.032 +13:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 43.1973ms
+2025-01-16 14:11:49.036 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2025-01-16 14:11:49.038 +13:00 [DBG] Connection id "0HN9LPA7K4HPD" completed keep alive response.
+2025-01-16 14:11:49.040 +13:00 [INF] Request finished HTTP/1.1 GET https://localhost:7171/api/cities/4/pointsofinterest - 404 162 application/problem+json; charset=utf-8 82.8129ms
+2025-01-16 14:12:03.475 +13:00 [INF] Request starting HTTP/1.1 GET https://localhost:7171/api/cities/1/pointsofinterest/1 - null null
+2025-01-16 14:12:03.481 +13:00 [DBG] The request path  does not match the path filter
+2025-01-16 14:12:03.485 +13:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/1'
+2025-01-16 14:12:03.488 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/1'
+2025-01-16 14:12:03.491 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-01-16 14:12:03.494 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-01-16 14:12:03.498 +13:00 [INF] Route matched with {action = "GetPointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CityInfo.API.Models.PointOfInterestDto] GetPointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2025-01-16 14:12:03.500 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:12:03.502 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:12:03.506 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:12:03.509 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:12:03.511 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:12:03.513 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:12:03.515 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:12:03.517 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:12:03.519 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2025-01-16 14:12:03.523 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:12:03.524 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:12:03.526 +13:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:12:03.529 +13:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:12:03.530 +13:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2025-01-16 14:12:03.533 +13:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2025-01-16 14:12:03.535 +13:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-01-16 14:12:03.538 +13:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-01-16 14:12:03.540 +13:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2025-01-16 14:12:03.543 +13:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-01-16 14:12:03.545 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:12:03.548 +13:00 [DBG] No information found on request to perform content negotiation.
+2025-01-16 14:12:03.549 +13:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-16 14:12:03.551 +13:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-16 14:12:03.552 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-16 14:12:03.555 +13:00 [INF] Executing OkObjectResult, writing value of type 'CityInfo.API.Models.PointOfInterestDto'.
+2025-01-16 14:12:03.557 +13:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API) in 43.5096ms
+2025-01-16 14:12:03.559 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-01-16 14:12:03.561 +13:00 [DBG] Connection id "0HN9LPA7K4HPD" completed keep alive response.
+2025-01-16 14:12:03.563 +13:00 [INF] Request finished HTTP/1.1 GET https://localhost:7171/api/cities/1/pointsofinterest/1 - 200 96 application/json; charset=utf-8 88.1847ms
+2025-01-16 14:12:14.675 +13:00 [INF] Request starting HTTP/1.1 GET https://localhost:7171/api/cities/4/pointsofinterest/1 - null null
+2025-01-16 14:12:14.681 +13:00 [DBG] The request path  does not match the path filter
+2025-01-16 14:12:14.683 +13:00 [DBG] 1 candidate(s) found for the request path '/api/cities/4/pointsofinterest/1'
+2025-01-16 14:12:14.686 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/4/pointsofinterest/1'
+2025-01-16 14:12:14.690 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-01-16 14:12:14.692 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-01-16 14:12:14.694 +13:00 [INF] Route matched with {action = "GetPointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CityInfo.API.Models.PointOfInterestDto] GetPointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2025-01-16 14:12:14.698 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:12:14.700 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:12:14.702 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:12:14.704 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:12:14.706 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:12:14.709 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:12:14.711 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:12:14.714 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:12:14.716 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2025-01-16 14:12:14.718 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:12:14.720 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:12:14.722 +13:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:12:14.724 +13:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:12:14.726 +13:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2025-01-16 14:12:14.729 +13:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2025-01-16 14:12:14.732 +13:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-01-16 14:12:14.734 +13:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-01-16 14:12:14.736 +13:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2025-01-16 14:12:14.738 +13:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-01-16 14:12:14.740 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:12:14.744 +13:00 [DBG] No information found on request to perform content negotiation.
+2025-01-16 14:12:14.746 +13:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-01-16 14:12:14.752 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-01-16 14:12:14.754 +13:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-16 14:12:14.756 +13:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API) in 47.3957ms
+2025-01-16 14:12:14.759 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-01-16 14:12:14.760 +13:00 [DBG] Connection id "0HN9LPA7K4HPD" completed keep alive response.
+2025-01-16 14:12:14.764 +13:00 [INF] Request finished HTTP/1.1 GET https://localhost:7171/api/cities/4/pointsofinterest/1 - 404 162 application/problem+json; charset=utf-8 88.8372ms
+2025-01-16 14:12:48.061 +13:00 [INF] Request starting HTTP/1.1 GET https://localhost:7171/api/cities/1/pointsofinterest/10 - null null
+2025-01-16 14:12:48.066 +13:00 [DBG] The request path  does not match the path filter
+2025-01-16 14:12:48.069 +13:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/10'
+2025-01-16 14:12:48.071 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/10'
+2025-01-16 14:12:48.074 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-01-16 14:12:48.077 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-01-16 14:12:48.080 +13:00 [INF] Route matched with {action = "GetPointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CityInfo.API.Models.PointOfInterestDto] GetPointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2025-01-16 14:12:48.083 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:12:48.086 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:12:48.089 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:12:48.092 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:12:48.094 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:12:48.097 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:12:48.099 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:12:48.101 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:12:48.105 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2025-01-16 14:12:48.109 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:12:48.111 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:12:48.113 +13:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:12:48.115 +13:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:12:48.117 +13:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2025-01-16 14:12:48.119 +13:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2025-01-16 14:12:48.123 +13:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-01-16 14:12:48.126 +13:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-01-16 14:12:48.128 +13:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2025-01-16 14:12:48.131 +13:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2025-01-16 14:12:48.135 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:12:48.143 +13:00 [DBG] No information found on request to perform content negotiation.
+2025-01-16 14:12:48.146 +13:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-01-16 14:12:48.153 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-01-16 14:12:48.156 +13:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-16 14:12:48.162 +13:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API) in 65.8098ms
+2025-01-16 14:12:48.169 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-01-16 14:12:48.173 +13:00 [DBG] Connection id "0HN9LPA7K4HPD" completed keep alive response.
+2025-01-16 14:12:48.176 +13:00 [INF] Request finished HTTP/1.1 GET https://localhost:7171/api/cities/1/pointsofinterest/10 - 404 162 application/problem+json; charset=utf-8 114.7586ms
+2025-01-16 14:14:59.606 +13:00 [DBG] Connection id "0HN9LPA7K4HPD" disconnecting.
+2025-01-16 14:14:59.609 +13:00 [DBG] Connection id "0HN9LPA7K4HPD" stopped.
+2025-01-16 14:14:59.611 +13:00 [DBG] Connection id "0HN9LPA7K4HPD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:27:19.189 +13:00 [DBG] Connection id "0HN9LPA7K4HPE" accepted.
+2025-01-16 14:27:19.189 +13:00 [DBG] Connection id "0HN9LPA7K4HPE" received FIN.
+2025-01-16 14:27:19.194 +13:00 [DBG] Connection id "0HN9LPA7K4HPE" started.
+2025-01-16 14:27:19.194 +13:00 [DBG] Connection id "0HN9LPA7K4HPF" accepted.
+2025-01-16 14:27:19.197 +13:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-16 14:27:19.200 +13:00 [DBG] Connection id "0HN9LPA7K4HPF" started.
+2025-01-16 14:27:19.204 +13:00 [DBG] Connection id "0HN9LPA7K4HPE" stopped.
+2025-01-16 14:27:19.207 +13:00 [DBG] Connection id "0HN9LPA7K4HPE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:27:19.211 +13:00 [DBG] Connection 0HN9LPA7K4HPF established using the following protocol: "Tls13"
+2025-01-16 14:27:19.214 +13:00 [INF] Request starting HTTP/1.1 GET https://localhost:7171/api/cities - null null
+2025-01-16 14:27:19.220 +13:00 [DBG] The request path  does not match the path filter
+2025-01-16 14:27:19.222 +13:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2025-01-16 14:27:19.225 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2025-01-16 14:27:19.228 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-01-16 14:27:19.231 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-01-16 14:27:19.236 +13:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.CityDto]] GetCities() on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2025-01-16 14:27:19.241 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:27:19.245 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:27:19.248 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:27:19.251 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:27:19.255 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:27:19.261 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2025-01-16 14:27:19.268 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2025-01-16 14:27:19.279 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:27:19.299 +13:00 [DBG] Attempting to select an output formatter based on Accept header '["application/xml"]'.
+2025-01-16 14:27:19.321 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter' and content type 'application/xml' to write the response.
+2025-01-16 14:27:19.327 +13:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.CityDto, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-16 14:27:19.383 +13:00 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 121.4701ms
+2025-01-16 14:27:19.386 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-01-16 14:27:19.389 +13:00 [DBG] Connection id "0HN9LPA7K4HPF" completed keep alive response.
+2025-01-16 14:27:19.392 +13:00 [INF] Request finished HTTP/1.1 GET https://localhost:7171/api/cities - 200 1503 application/xml; charset=utf-8 177.8771ms
+2025-01-16 14:27:37.184 +13:00 [INF] Request starting HTTP/1.1 GET https://localhost:7171/api/files/1 - null null
+2025-01-16 14:27:37.188 +13:00 [DBG] The request path  does not match the path filter
+2025-01-16 14:27:37.189 +13:00 [DBG] 1 candidate(s) found for the request path '/api/files/1'
+2025-01-16 14:27:37.190 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)' with route pattern 'api/files/{fileId}' is valid for the request path '/api/files/1'
+2025-01-16 14:27:37.192 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:27:37.193 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:27:37.196 +13:00 [INF] Route matched with {action = "GetFile", controller = "Files"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetFile(System.String) on controller CityInfo.API.Controllers.FilesController (CityInfo.API).
+2025-01-16 14:27:37.201 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:27:37.204 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:27:37.206 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:27:37.208 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:27:37.209 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:27:37.211 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:27:37.213 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:27:37.214 +13:00 [DBG] Attempting to bind parameter 'fileId' of type 'System.String' ...
+2025-01-16 14:27:37.218 +13:00 [DBG] Attempting to bind parameter 'fileId' of type 'System.String' using the name 'fileId' in request data ...
+2025-01-16 14:27:37.221 +13:00 [DBG] Done attempting to bind parameter 'fileId' of type 'System.String'.
+2025-01-16 14:27:37.223 +13:00 [DBG] Done attempting to bind parameter 'fileId' of type 'System.String'.
+2025-01-16 14:27:37.224 +13:00 [DBG] Attempting to validate the bound parameter 'fileId' of type 'System.String' ...
+2025-01-16 14:27:37.229 +13:00 [DBG] Done attempting to validate the bound parameter 'fileId' of type 'System.String'.
+2025-01-16 14:27:37.234 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:27:37.252 +13:00 [DBG] Attempting to select an output formatter based on Accept header '["application/xml"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2025-01-16 14:27:37.294 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter' and content type 'application/problem+xml' to write the response.
+2025-01-16 14:27:37.301 +13:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-16 14:27:37.336 +13:00 [INF] Executed action CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API) in 125.0802ms
+2025-01-16 14:27:37.344 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:27:37.349 +13:00 [DBG] Connection id "0HN9LPA7K4HPF" completed keep alive response.
+2025-01-16 14:27:37.354 +13:00 [INF] Request finished HTTP/1.1 GET https://localhost:7171/api/files/1 - 404 226 application/problem+xml; charset=utf-8 170.3008ms
+2025-01-16 14:28:09.137 +13:00 [DBG] Connection id "0HN9LPA7K4HPG" accepted.
+2025-01-16 14:28:09.139 +13:00 [DBG] Connection id "0HN9LPA7K4HPG" started.
+2025-01-16 14:28:09.146 +13:00 [DBG] Connection 0HN9LPA7K4HPG established using the following protocol: "Tls13"
+2025-01-16 14:28:09.151 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/api/files/1 - null null
+2025-01-16 14:28:09.157 +13:00 [DBG] The request path  does not match the path filter
+2025-01-16 14:28:09.158 +13:00 [DBG] 1 candidate(s) found for the request path '/api/files/1'
+2025-01-16 14:28:09.159 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)' with route pattern 'api/files/{fileId}' is valid for the request path '/api/files/1'
+2025-01-16 14:28:09.161 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:28:09.162 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:28:09.163 +13:00 [INF] Route matched with {action = "GetFile", controller = "Files"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetFile(System.String) on controller CityInfo.API.Controllers.FilesController (CityInfo.API).
+2025-01-16 14:28:09.165 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:28:09.167 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:28:09.171 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:28:09.173 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:28:09.174 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:28:09.176 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:28:09.177 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:28:09.179 +13:00 [DBG] Attempting to bind parameter 'fileId' of type 'System.String' ...
+2025-01-16 14:28:09.180 +13:00 [DBG] Attempting to bind parameter 'fileId' of type 'System.String' using the name 'fileId' in request data ...
+2025-01-16 14:28:09.182 +13:00 [DBG] Done attempting to bind parameter 'fileId' of type 'System.String'.
+2025-01-16 14:28:09.183 +13:00 [DBG] Done attempting to bind parameter 'fileId' of type 'System.String'.
+2025-01-16 14:28:09.185 +13:00 [DBG] Attempting to validate the bound parameter 'fileId' of type 'System.String' ...
+2025-01-16 14:28:09.188 +13:00 [DBG] Done attempting to validate the bound parameter 'fileId' of type 'System.String'.
+2025-01-16 14:28:09.189 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:28:09.192 +13:00 [DBG] No information found on request to perform content negotiation.
+2025-01-16 14:28:09.193 +13:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-01-16 14:28:09.195 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-01-16 14:28:09.197 +13:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-16 14:28:09.198 +13:00 [INF] Executed action CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API) in 22.5569ms
+2025-01-16 14:28:09.206 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:28:09.209 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/api/files/1 - 404 162 application/problem+json; charset=utf-8 57.5069ms
+2025-01-16 14:28:57.684 +13:00 [INF] Request starting HTTP/2 POST https://localhost:7171/api/files - multipart/form-data; boundary=----WebKitFormBoundaryBN8TWLOcN3IssTza 10648234
+2025-01-16 14:28:57.690 +13:00 [DBG] POST requests are not supported
+2025-01-16 14:28:57.691 +13:00 [DBG] 1 candidate(s) found for the request path '/api/files'
+2025-01-16 14:28:57.695 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.FilesController.CreateFile (CityInfo.API)' with route pattern 'api/files' is valid for the request path '/api/files'
+2025-01-16 14:28:57.701 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.FilesController.CreateFile (CityInfo.API)'
+2025-01-16 14:28:57.703 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.FilesController.CreateFile (CityInfo.API)'
+2025-01-16 14:28:57.709 +13:00 [INF] Route matched with {action = "CreateFile", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateFile(Microsoft.AspNetCore.Http.IFormFile) on controller CityInfo.API.Controllers.FilesController (CityInfo.API).
+2025-01-16 14:28:57.716 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:28:57.717 +13:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
+2025-01-16 14:28:57.719 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:28:57.720 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:28:57.722 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:28:57.724 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:28:57.725 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:28:57.734 +13:00 [DBG] Connection id "0HN9LPA7K4HPG", Request id "0HN9LPA7K4HPG:00000003": started reading request body.
+2025-01-16 14:28:57.871 +13:00 [DBG] Connection id "0HN9LPA7K4HPG", Request id "0HN9LPA7K4HPG:00000003": done reading request body.
+2025-01-16 14:28:57.881 +13:00 [DBG] Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2025-01-16 14:28:57.885 +13:00 [DBG] Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' using the name 'file' in request data ...
+2025-01-16 14:28:57.887 +13:00 [DBG] Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2025-01-16 14:28:57.889 +13:00 [DBG] Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2025-01-16 14:28:57.890 +13:00 [DBG] Attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2025-01-16 14:28:57.892 +13:00 [DBG] Done attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2025-01-16 14:28:57.917 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:28:57.920 +13:00 [DBG] No information found on request to perform content negotiation.
+2025-01-16 14:28:57.921 +13:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-16 14:28:57.924 +13:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-16 14:28:57.930 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-01-16 14:28:57.938 +13:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-01-16 14:28:57.951 +13:00 [INF] Executed action CityInfo.API.Controllers.FilesController.CreateFile (CityInfo.API) in 227.3565ms
+2025-01-16 14:28:57.959 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.FilesController.CreateFile (CityInfo.API)'
+2025-01-16 14:28:57.973 +13:00 [INF] Request finished HTTP/2 POST https://localhost:7171/api/files - 200 null text/plain; charset=utf-8 288.6038ms
+2025-01-16 14:28:59.409 +13:00 [DBG] Connection id "0HN9LPA7K4HPG" received FIN.
+2025-01-16 14:28:59.412 +13:00 [DBG] Connection id "0HN9LPA7K4HPG" is closed. The last processed stream ID was 3.
+2025-01-16 14:28:59.412 +13:00 [DBG] The connection queue processing loop for 0HN9LPA7K4HPG completed.
+2025-01-16 14:28:59.413 +13:00 [DBG] Connection id "0HN9LPA7K4HPG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:28:59.424 +13:00 [DBG] Connection id "0HN9LPA7K4HPG" stopped.
+2025-01-16 14:29:03.475 +13:00 [DBG] Connection id "0HN9LPA7K4HPH" accepted.
+2025-01-16 14:29:03.478 +13:00 [DBG] Connection id "0HN9LPA7K4HPH" started.
+2025-01-16 14:29:03.482 +13:00 [DBG] Connection 0HN9LPA7K4HPH established using the following protocol: "Tls13"
+2025-01-16 14:29:03.488 +13:00 [INF] Request starting HTTP/2 POST https://localhost:7171/api/files - multipart/form-data; boundary=----WebKitFormBoundaryQAevaqea3GDAE7Yz 10648234
+2025-01-16 14:29:03.494 +13:00 [DBG] POST requests are not supported
+2025-01-16 14:29:03.495 +13:00 [DBG] 1 candidate(s) found for the request path '/api/files'
+2025-01-16 14:29:03.498 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.FilesController.CreateFile (CityInfo.API)' with route pattern 'api/files' is valid for the request path '/api/files'
+2025-01-16 14:29:03.503 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.FilesController.CreateFile (CityInfo.API)'
+2025-01-16 14:29:03.505 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.FilesController.CreateFile (CityInfo.API)'
+2025-01-16 14:29:03.506 +13:00 [INF] Route matched with {action = "CreateFile", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateFile(Microsoft.AspNetCore.Http.IFormFile) on controller CityInfo.API.Controllers.FilesController (CityInfo.API).
+2025-01-16 14:29:03.512 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:29:03.515 +13:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
+2025-01-16 14:29:03.517 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:29:03.520 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:29:03.522 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:29:03.524 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:29:03.529 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:29:03.532 +13:00 [DBG] Connection id "0HN9LPA7K4HPH", Request id "0HN9LPA7K4HPH:00000001": started reading request body.
+2025-01-16 14:29:03.717 +13:00 [DBG] Connection id "0HN9LPA7K4HPH", Request id "0HN9LPA7K4HPH:00000001": done reading request body.
+2025-01-16 14:29:03.722 +13:00 [DBG] Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2025-01-16 14:29:03.725 +13:00 [DBG] Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' using the name 'file' in request data ...
+2025-01-16 14:29:03.726 +13:00 [DBG] Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2025-01-16 14:29:03.728 +13:00 [DBG] Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2025-01-16 14:29:03.729 +13:00 [DBG] Attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2025-01-16 14:29:03.731 +13:00 [DBG] Done attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2025-01-16 14:29:03.743 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:29:03.746 +13:00 [DBG] No information found on request to perform content negotiation.
+2025-01-16 14:29:03.746 +13:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-16 14:29:03.747 +13:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-16 14:29:03.748 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-01-16 14:29:03.750 +13:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-01-16 14:29:03.751 +13:00 [INF] Executed action CityInfo.API.Controllers.FilesController.CreateFile (CityInfo.API) in 226.898ms
+2025-01-16 14:29:03.753 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.FilesController.CreateFile (CityInfo.API)'
+2025-01-16 14:29:03.756 +13:00 [INF] Request finished HTTP/2 POST https://localhost:7171/api/files - 200 null text/plain; charset=utf-8 267.3552ms
+2025-01-16 14:29:15.255 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/api/files/1 - null null
+2025-01-16 14:29:15.261 +13:00 [DBG] The request path  does not match the path filter
+2025-01-16 14:29:15.262 +13:00 [DBG] 1 candidate(s) found for the request path '/api/files/1'
+2025-01-16 14:29:15.265 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)' with route pattern 'api/files/{fileId}' is valid for the request path '/api/files/1'
+2025-01-16 14:29:15.267 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:29:15.269 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:29:15.273 +13:00 [INF] Route matched with {action = "GetFile", controller = "Files"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetFile(System.String) on controller CityInfo.API.Controllers.FilesController (CityInfo.API).
+2025-01-16 14:29:15.278 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:29:15.284 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:29:15.292 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:29:15.298 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:29:15.307 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:29:15.315 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:29:15.321 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:29:15.324 +13:00 [DBG] Attempting to bind parameter 'fileId' of type 'System.String' ...
+2025-01-16 14:29:15.328 +13:00 [DBG] Attempting to bind parameter 'fileId' of type 'System.String' using the name 'fileId' in request data ...
+2025-01-16 14:29:15.335 +13:00 [DBG] Done attempting to bind parameter 'fileId' of type 'System.String'.
+2025-01-16 14:29:15.341 +13:00 [DBG] Done attempting to bind parameter 'fileId' of type 'System.String'.
+2025-01-16 14:29:15.344 +13:00 [DBG] Attempting to validate the bound parameter 'fileId' of type 'System.String' ...
+2025-01-16 14:29:15.349 +13:00 [DBG] Done attempting to validate the bound parameter 'fileId' of type 'System.String'.
+2025-01-16 14:29:15.355 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:29:15.370 +13:00 [DBG] No information found on request to perform content negotiation.
+2025-01-16 14:29:15.375 +13:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-01-16 14:29:15.384 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-01-16 14:29:15.391 +13:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-16 14:29:15.394 +13:00 [INF] Executed action CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API) in 79.5488ms
+2025-01-16 14:29:15.396 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:29:15.399 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/api/files/1 - 404 162 application/problem+json; charset=utf-8 143.3901ms
+2025-01-16 14:29:24.427 +13:00 [DBG] Connection id "0HN9LPA7K4HPH" received FIN.
+2025-01-16 14:29:24.433 +13:00 [DBG] Connection id "0HN9LPA7K4HPH" is closed. The last processed stream ID was 3.
+2025-01-16 14:29:24.433 +13:00 [DBG] The connection queue processing loop for 0HN9LPA7K4HPH completed.
+2025-01-16 14:29:24.434 +13:00 [DBG] Connection id "0HN9LPA7K4HPH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:29:24.441 +13:00 [DBG] Connection id "0HN9LPA7K4HPH" stopped.
+2025-01-16 14:29:27.865 +13:00 [DBG] Connection id "0HN9LPA7K4HPI" accepted.
+2025-01-16 14:29:27.870 +13:00 [DBG] Connection id "0HN9LPA7K4HPI" started.
+2025-01-16 14:29:27.865 +13:00 [DBG] Connection id "0HN9LPA7K4HPI" received FIN.
+2025-01-16 14:29:27.870 +13:00 [DBG] Connection id "0HN9LPA7K4HPJ" accepted.
+2025-01-16 14:29:27.874 +13:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-16 14:29:27.876 +13:00 [DBG] Connection id "0HN9LPA7K4HPJ" started.
+2025-01-16 14:29:27.879 +13:00 [DBG] Connection id "0HN9LPA7K4HPI" stopped.
+2025-01-16 14:29:27.882 +13:00 [DBG] Connection id "0HN9LPA7K4HPI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:29:27.883 +13:00 [DBG] Connection 0HN9LPA7K4HPJ established using the following protocol: "Tls13"
+2025-01-16 14:29:27.886 +13:00 [INF] Request starting HTTP/1.1 GET https://localhost:7171/api/files/1 - null null
+2025-01-16 14:29:27.889 +13:00 [DBG] The request path  does not match the path filter
+2025-01-16 14:29:27.891 +13:00 [DBG] 1 candidate(s) found for the request path '/api/files/1'
+2025-01-16 14:29:27.892 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)' with route pattern 'api/files/{fileId}' is valid for the request path '/api/files/1'
+2025-01-16 14:29:27.896 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:29:27.899 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:29:27.903 +13:00 [INF] Route matched with {action = "GetFile", controller = "Files"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetFile(System.String) on controller CityInfo.API.Controllers.FilesController (CityInfo.API).
+2025-01-16 14:29:27.908 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:29:27.913 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:29:27.917 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:29:27.926 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:29:27.934 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:29:27.945 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:29:27.953 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:29:27.962 +13:00 [DBG] Attempting to bind parameter 'fileId' of type 'System.String' ...
+2025-01-16 14:29:27.972 +13:00 [DBG] Attempting to bind parameter 'fileId' of type 'System.String' using the name 'fileId' in request data ...
+2025-01-16 14:29:27.982 +13:00 [DBG] Done attempting to bind parameter 'fileId' of type 'System.String'.
+2025-01-16 14:29:27.990 +13:00 [DBG] Done attempting to bind parameter 'fileId' of type 'System.String'.
+2025-01-16 14:29:27.999 +13:00 [DBG] Attempting to validate the bound parameter 'fileId' of type 'System.String' ...
+2025-01-16 14:29:28.008 +13:00 [DBG] Done attempting to validate the bound parameter 'fileId' of type 'System.String'.
+2025-01-16 14:29:28.016 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:29:28.020 +13:00 [DBG] Attempting to select an output formatter based on Accept header '["application/xml"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2025-01-16 14:29:28.024 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter' and content type 'application/problem+xml' to write the response.
+2025-01-16 14:29:28.025 +13:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-16 14:29:28.027 +13:00 [INF] Executed action CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API) in 82.4429ms
+2025-01-16 14:29:28.028 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:29:28.030 +13:00 [DBG] Connection id "0HN9LPA7K4HPJ" completed keep alive response.
+2025-01-16 14:29:28.031 +13:00 [INF] Request finished HTTP/1.1 GET https://localhost:7171/api/files/1 - 404 226 application/problem+xml; charset=utf-8 145.2699ms
+2025-01-16 14:29:41.107 +13:00 [INF] Request starting HTTP/1.1 POST https://localhost:7171/api/cities/3/pointsofinterest/1 - application/json 117
+2025-01-16 14:29:41.114 +13:00 [DBG] POST requests are not supported
+2025-01-16 14:29:41.116 +13:00 [DBG] 1 candidate(s) found for the request path '/api/cities/3/pointsofinterest/1'
+2025-01-16 14:29:41.118 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/3/pointsofinterest/1'
+2025-01-16 14:29:41.121 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)'
+2025-01-16 14:29:41.122 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)'
+2025-01-16 14:29:41.125 +13:00 [INF] Route matched with {action = "CreatePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CityInfo.API.Models.PointOfInterestDto] CreatePointOfInterest(Int32, CityInfo.API.Models.PointOfInterestForCreationDto) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2025-01-16 14:29:41.128 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:29:41.132 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:29:41.134 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:29:41.136 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:29:41.139 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:29:41.144 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:29:41.149 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:29:41.155 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:29:41.163 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2025-01-16 14:29:41.173 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:29:41.182 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:29:41.190 +13:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:29:41.198 +13:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:29:41.207 +13:00 [DBG] Attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto' ...
+2025-01-16 14:29:41.217 +13:00 [DBG] Attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto' using the name '' in request data ...
+2025-01-16 14:29:41.231 +13:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2025-01-16 14:29:41.240 +13:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2025-01-16 14:29:41.259 +13:00 [DBG] Connection id "0HN9LPA7K4HPJ", Request id "0HN9LPA7K4HPJ:00000002": started reading request body.
+2025-01-16 14:29:41.264 +13:00 [DBG] Connection id "0HN9LPA7K4HPJ", Request id "0HN9LPA7K4HPJ:00000002": done reading request body.
+2025-01-16 14:29:41.287 +13:00 [DBG] Done attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto'.
+2025-01-16 14:29:41.289 +13:00 [DBG] Done attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto'.
+2025-01-16 14:29:41.291 +13:00 [DBG] Attempting to validate the bound parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto' ...
+2025-01-16 14:29:41.297 +13:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto'.
+2025-01-16 14:29:41.303 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:29:41.308 +13:00 [DBG] No information found on request to perform content negotiation.
+2025-01-16 14:29:41.312 +13:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-16 14:29:41.313 +13:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-16 14:29:41.314 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-16 14:29:41.316 +13:00 [INF] Executing CreatedAtRouteResult, writing value of type 'CityInfo.API.Models.PointOfInterestDto'.
+2025-01-16 14:29:41.334 +13:00 [DBG] Found the endpoints ["CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)"] for address GetPointOfInterest(cityId=[3],pointOfInterestId=[7])
+2025-01-16 14:29:41.339 +13:00 [DBG] Successfully processed template api/cities/{cityId}/pointsofinterest/{pointOfInterestId} for CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API) resulting in /api/cities/3/pointsofinterest/7 and 
+2025-01-16 14:29:41.344 +13:00 [DBG] Link generation succeeded for endpoints ["CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)"] with result /api/cities/3/pointsofinterest/7
+2025-01-16 14:29:41.351 +13:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API) in 206.9413ms
+2025-01-16 14:29:41.355 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)'
+2025-01-16 14:29:41.357 +13:00 [DBG] Connection id "0HN9LPA7K4HPJ" completed keep alive response.
+2025-01-16 14:29:41.362 +13:00 [INF] Request finished HTTP/1.1 POST https://localhost:7171/api/cities/3/pointsofinterest/1 - 201 111 application/json; charset=utf-8 254.2956ms
+2025-01-16 14:29:48.863 +13:00 [DBG] Connection id "0HN9LPA7K4HPF" disconnecting.
+2025-01-16 14:29:48.873 +13:00 [DBG] Connection id "0HN9LPA7K4HPF" stopped.
+2025-01-16 14:29:48.882 +13:00 [DBG] Connection id "0HN9LPA7K4HPF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:29:50.960 +13:00 [INF] Request starting HTTP/1.1 POST https://localhost:7171/api/cities/3/pointsofinterest/1 - application/json 0
+2025-01-16 14:29:50.965 +13:00 [DBG] POST requests are not supported
+2025-01-16 14:29:50.968 +13:00 [DBG] 1 candidate(s) found for the request path '/api/cities/3/pointsofinterest/1'
+2025-01-16 14:29:50.971 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/3/pointsofinterest/1'
+2025-01-16 14:29:50.975 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)'
+2025-01-16 14:29:50.980 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)'
+2025-01-16 14:29:50.982 +13:00 [INF] Route matched with {action = "CreatePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CityInfo.API.Models.PointOfInterestDto] CreatePointOfInterest(Int32, CityInfo.API.Models.PointOfInterestForCreationDto) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2025-01-16 14:29:50.985 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:29:50.988 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:29:50.990 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:29:50.992 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:29:50.994 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:29:50.997 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:29:50.998 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:29:51.000 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:29:51.002 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2025-01-16 14:29:51.005 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:29:51.007 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:29:51.009 +13:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:29:51.010 +13:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:29:51.012 +13:00 [DBG] Attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto' ...
+2025-01-16 14:29:51.016 +13:00 [DBG] Attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto' using the name '' in request data ...
+2025-01-16 14:29:51.023 +13:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2025-01-16 14:29:51.031 +13:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2025-01-16 14:29:51.052 +13:00 [DBG] Done attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto'.
+2025-01-16 14:29:51.059 +13:00 [DBG] Done attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto'.
+2025-01-16 14:29:51.068 +13:00 [DBG] Attempting to validate the bound parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto' ...
+2025-01-16 14:29:51.086 +13:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto'.
+2025-01-16 14:29:51.096 +13:00 [DBG] The request has model state errors, returning an error response.
+2025-01-16 14:29:51.106 +13:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2025-01-16 14:29:51.114 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:29:51.131 +13:00 [DBG] No information found on request to perform content negotiation.
+2025-01-16 14:29:51.135 +13:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-01-16 14:29:51.142 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-01-16 14:29:51.143 +13:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-16 14:29:51.156 +13:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API) in 159.4069ms
+2025-01-16 14:29:51.160 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)'
+2025-01-16 14:29:51.162 +13:00 [DBG] Connection id "0HN9LPA7K4HPJ" completed keep alive response.
+2025-01-16 14:29:51.165 +13:00 [INF] Request finished HTTP/1.1 POST https://localhost:7171/api/cities/3/pointsofinterest/1 - 400 309 application/problem+json; charset=utf-8 204.5872ms
+2025-01-16 14:30:01.872 +13:00 [INF] Request starting HTTP/1.1 POST https://localhost:7171/api/cities/3/pointsofinterest/1 - application/json 974
+2025-01-16 14:30:01.877 +13:00 [DBG] POST requests are not supported
+2025-01-16 14:30:01.878 +13:00 [DBG] 1 candidate(s) found for the request path '/api/cities/3/pointsofinterest/1'
+2025-01-16 14:30:01.880 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/3/pointsofinterest/1'
+2025-01-16 14:30:01.882 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)'
+2025-01-16 14:30:01.886 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)'
+2025-01-16 14:30:01.889 +13:00 [INF] Route matched with {action = "CreatePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CityInfo.API.Models.PointOfInterestDto] CreatePointOfInterest(Int32, CityInfo.API.Models.PointOfInterestForCreationDto) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2025-01-16 14:30:01.891 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:30:01.893 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:30:01.895 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:30:01.899 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:30:01.908 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:30:01.918 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:30:01.928 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2025-01-16 14:30:01.938 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:30:01.946 +13:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2025-01-16 14:30:01.956 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:30:01.965 +13:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:30:01.974 +13:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2025-01-16 14:30:01.981 +13:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2025-01-16 14:30:01.989 +13:00 [DBG] Attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto' ...
+2025-01-16 14:30:01.996 +13:00 [DBG] Attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto' using the name '' in request data ...
+2025-01-16 14:30:02.004 +13:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2025-01-16 14:30:02.011 +13:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2025-01-16 14:30:02.019 +13:00 [DBG] Connection id "0HN9LPA7K4HPJ", Request id "0HN9LPA7K4HPJ:00000004": started reading request body.
+2025-01-16 14:30:02.024 +13:00 [DBG] Connection id "0HN9LPA7K4HPJ", Request id "0HN9LPA7K4HPJ:00000004": done reading request body.
+2025-01-16 14:30:02.038 +13:00 [DBG] Done attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto'.
+2025-01-16 14:30:02.042 +13:00 [DBG] Done attempting to bind parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto'.
+2025-01-16 14:30:02.046 +13:00 [DBG] Attempting to validate the bound parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto' ...
+2025-01-16 14:30:02.050 +13:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterest' of type 'CityInfo.API.Models.PointOfInterestForCreationDto'.
+2025-01-16 14:30:02.052 +13:00 [DBG] The request has model state errors, returning an error response.
+2025-01-16 14:30:02.053 +13:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2025-01-16 14:30:02.055 +13:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-16 14:30:02.059 +13:00 [DBG] No information found on request to perform content negotiation.
+2025-01-16 14:30:02.061 +13:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-01-16 14:30:02.065 +13:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-01-16 14:30:02.066 +13:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-16 14:30:02.068 +13:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API) in 149.976ms
+2025-01-16 14:30:02.070 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.CreatePointOfInterest (CityInfo.API)'
+2025-01-16 14:30:02.071 +13:00 [DBG] Connection id "0HN9LPA7K4HPJ" completed keep alive response.
+2025-01-16 14:30:02.073 +13:00 [INF] Request finished HTTP/1.1 POST https://localhost:7171/api/cities/3/pointsofinterest/1 - 400 350 application/problem+json; charset=utf-8 200.2417ms
+2025-01-16 14:33:33.061 +13:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-01-16 14:33:33.224 +13:00 [DBG] Hosting starting
+2025-01-16 14:33:33.566 +13:00 [INF] Now listening on: https://localhost:7171
+2025-01-16 14:33:33.569 +13:00 [INF] Now listening on: http://localhost:5206
+2025-01-16 14:33:33.572 +13:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-01-16 14:33:33.574 +13:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-01-16 14:33:33.576 +13:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-01-16 14:33:33.579 +13:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-16 14:33:33.581 +13:00 [INF] Hosting environment: Development
+2025-01-16 14:33:33.583 +13:00 [INF] Content root path: C:\Users\64273\C#\CityInfo\CityInfo.API
+2025-01-16 14:33:33.586 +13:00 [DBG] Hosting started
+2025-01-16 14:33:33.974 +13:00 [DBG] Connection id "0HN9LPN597NCH" accepted.
+2025-01-16 14:33:33.974 +13:00 [DBG] Connection id "0HN9LPN597NCG" accepted.
+2025-01-16 14:33:33.981 +13:00 [DBG] Connection id "0HN9LPN597NCH" started.
+2025-01-16 14:33:33.982 +13:00 [DBG] Connection id "0HN9LPN597NCH" received FIN.
+2025-01-16 14:33:33.982 +13:00 [DBG] Connection id "0HN9LPN597NCG" received FIN.
+2025-01-16 14:33:33.983 +13:00 [DBG] Connection id "0HN9LPN597NCG" started.
+2025-01-16 14:33:34.012 +13:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-16 14:33:34.012 +13:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-01-16 14:33:34.050 +13:00 [DBG] Connection id "0HN9LPN597NCH" stopped.
+2025-01-16 14:33:34.050 +13:00 [DBG] Connection id "0HN9LPN597NCG" stopped.
+2025-01-16 14:33:34.064 +13:00 [DBG] Connection id "0HN9LPN597NCH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:33:34.064 +13:00 [DBG] Connection id "0HN9LPN597NCG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:33:34.170 +13:00 [DBG] Connection id "0HN9LPN597NCI" accepted.
+2025-01-16 14:33:34.174 +13:00 [DBG] Connection id "0HN9LPN597NCI" started.
+2025-01-16 14:33:35.114 +13:00 [DBG] Connection 0HN9LPN597NCI established using the following protocol: "Tls13"
+2025-01-16 14:33:35.218 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/index.html - null null
+2025-01-16 14:33:35.443 +13:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-01-16 14:33:35.596 +13:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-01-16 14:33:35.602 +13:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-16 14:33:35.635 +13:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-01-16 14:33:35.640 +13:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-16 14:33:35.649 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/index.html - 200 null text/html;charset=utf-8 433.8344ms
+2025-01-16 14:33:35.655 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2025-01-16 14:33:35.655 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-16 14:33:35.700 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 45.1389ms
+2025-01-16 14:33:35.830 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 175.0479ms
+2025-01-16 14:33:35.936 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - null null
+2025-01-16 14:33:36.294 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 358.361ms
+2025-01-16 14:33:44.811 +13:00 [DBG] Connection id "0HN9LPN597NCI" received FIN.
+2025-01-16 14:33:44.820 +13:00 [DBG] The connection queue processing loop for 0HN9LPN597NCI completed.
+2025-01-16 14:33:44.823 +13:00 [DBG] Connection id "0HN9LPN597NCI" is closed. The last processed stream ID was 7.
+2025-01-16 14:33:44.827 +13:00 [DBG] Connection id "0HN9LPN597NCI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:33:44.845 +13:00 [DBG] Connection id "0HN9LPN597NCI" stopped.
+2025-01-16 14:33:48.605 +13:00 [DBG] Connection id "0HN9LPN597NCJ" accepted.
+2025-01-16 14:33:48.609 +13:00 [DBG] Connection id "0HN9LPN597NCJ" started.
+2025-01-16 14:33:48.616 +13:00 [DBG] Connection 0HN9LPN597NCJ established using the following protocol: "Tls13"
+2025-01-16 14:33:48.621 +13:00 [INF] Request starting HTTP/2 GET https://localhost:7171/api/files/1 - null null
+2025-01-16 14:33:48.631 +13:00 [DBG] The request path  does not match the path filter
+2025-01-16 14:33:48.668 +13:00 [DBG] 1 candidate(s) found for the request path '/api/files/1'
+2025-01-16 14:33:48.677 +13:00 [DBG] Endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)' with route pattern 'api/files/{fileId}' is valid for the request path '/api/files/1'
+2025-01-16 14:33:48.682 +13:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:33:48.688 +13:00 [INF] Executing endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:33:48.727 +13:00 [INF] Route matched with {action = "GetFile", controller = "Files"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetFile(System.String) on controller CityInfo.API.Controllers.FilesController (CityInfo.API).
+2025-01-16 14:33:48.734 +13:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-16 14:33:48.737 +13:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-16 14:33:48.741 +13:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-16 14:33:48.748 +13:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-16 14:33:48.751 +13:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-16 14:33:48.756 +13:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:33:48.761 +13:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.FilesController (CityInfo.API)
+2025-01-16 14:33:48.775 +13:00 [DBG] Attempting to bind parameter 'fileId' of type 'System.String' ...
+2025-01-16 14:33:48.780 +13:00 [DBG] Attempting to bind parameter 'fileId' of type 'System.String' using the name 'fileId' in request data ...
+2025-01-16 14:33:48.783 +13:00 [DBG] Done attempting to bind parameter 'fileId' of type 'System.String'.
+2025-01-16 14:33:48.785 +13:00 [DBG] Done attempting to bind parameter 'fileId' of type 'System.String'.
+2025-01-16 14:33:48.787 +13:00 [DBG] Attempting to validate the bound parameter 'fileId' of type 'System.String' ...
+2025-01-16 14:33:48.797 +13:00 [DBG] Done attempting to validate the bound parameter 'fileId' of type 'System.String'.
+2025-01-16 14:33:48.854 +13:00 [INF] Executing FileContentResult, sending file with download name 'getting-started-with-rest-slides.pdf' ...
+2025-01-16 14:33:48.863 +13:00 [DBG] The file result has not been enabled for processing range requests. To enable it, set the EnableRangeProcessing property on the result to 'true'.
+2025-01-16 14:33:49.024 +13:00 [INF] Executed action CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API) in 264.0842ms
+2025-01-16 14:33:49.029 +13:00 [INF] Executed endpoint 'CityInfo.API.Controllers.FilesController.GetFile (CityInfo.API)'
+2025-01-16 14:33:49.032 +13:00 [INF] Request finished HTTP/2 GET https://localhost:7171/api/files/1 - 200 18907896 application/pdf 410.431ms
+2025-01-16 14:33:54.817 +13:00 [DBG] Connection id "0HN9LPN597NCJ" received FIN.
+2025-01-16 14:33:54.822 +13:00 [DBG] Connection id "0HN9LPN597NCJ" is closed. The last processed stream ID was 1.
+2025-01-16 14:33:54.822 +13:00 [DBG] The connection queue processing loop for 0HN9LPN597NCJ completed.
+2025-01-16 14:33:54.826 +13:00 [DBG] Connection id "0HN9LPN597NCJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-16 14:33:54.834 +13:00 [DBG] Connection id "0HN9LPN597NCJ" stopped.
