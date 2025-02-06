@@ -18,6 +18,11 @@ namespace CityInfo.API.Services
             return await _context.Cities.OrderBy(c=> c.Name).ToListAsync();
         }
 
+        public async Task<bool> CityNameMatchesCity(string? cityName, int cityId)
+        {
+            return await _context.Cities.AnyAsync(c => c.Id == cityId && c.Name == cityName);
+        }
+
         public async Task<(IEnumerable<City>, PaginationMetadata)> GetCitiesAsync(
             string? name, string? searchQuery, int pageNumber, int pageSize)
         {
@@ -102,5 +107,6 @@ namespace CityInfo.API.Services
         {
             _context.PointOfInterests.Remove(pointOfInterest);
         }
+
     }
 }
